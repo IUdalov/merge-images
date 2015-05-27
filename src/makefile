@@ -1,6 +1,6 @@
 CC=g++
 
-CFLAGS=-Wall
+CFLAGS=-Wall -O2
 OPENCV=`pkg-config opencv --cflags --libs`
 LIBS=$(OPENCV)
 BIN_DIR=../bin
